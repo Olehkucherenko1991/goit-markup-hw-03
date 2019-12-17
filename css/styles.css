@@ -1,0 +1,32 @@
+:root {
+  --text-color: #626262;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  color: var(--text-color);
+}
+
+.site-navigation .link {
+  font-size: 14px;
+  color: #626262;
+}
+
+.site-navigation .link:hover,
+.site-navigation .link:focus {
+  color: #03a9f3;
+}
+
+.list-item .subtitle {
+  font-family: 'Ubuntu', sans-serif;
+  color: #b4ad9e;
+  font-size: 14px;
+}
+
+.list-item .title {
+  font-size: 30px;
+}
+
+.button {
+  font-size: 20px;
+}
