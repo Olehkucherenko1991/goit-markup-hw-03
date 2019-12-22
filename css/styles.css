@@ -1,14 +1,18 @@
 :root {
+  --background-color: #ffffff;
   --text-color: #626262;
+  --primary-text-style: 'Playfair Display', serif;
 }
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--primary-text-style);
   color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 .site-navigation .link {
   font-size: 14px;
+  text-transform: uppercase;
   color: #626262;
 }
 
@@ -21,12 +25,19 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #b4ad9e;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .list-item .title {
   font-size: 30px;
 }
 
+.list-item .about {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 .button {
   font-size: 20px;
+  cursor: pointer;
 }
