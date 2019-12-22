@@ -40,4 +40,5 @@ body {
 .button {
   font-size: 20px;
   cursor: pointer;
+  font-family: 'Playfair Display', serif;
 }
